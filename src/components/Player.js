@@ -3,7 +3,6 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlay,faAngleRight,faAngleLeft,faPause} from '@fortawesome/free-solid-svg-icons'
 
 const Player = ({setSongs,setCurrentSong,songs,currentSong, isPlaying, setIsPlaying,setSongInfo,songInfo,audioref}) => {
-    //For referencing the audio tag
     const activeLibraryHandler = (nextPrev) => {
         const newSongs = songs.map((song)=> {
             if(song.id === nextPrev.id) {
