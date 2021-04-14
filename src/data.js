@@ -3,11 +3,11 @@ import {v4 as uuidv4} from 'uuid';
 function SongList () {
     return [
           {
-            name: "Beaver Creek",
+            name: "Indian Walk",
             cover:
               "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-            artist: "Aso, Middle School, Aviino",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+            artist: "Nico Staf",
+            audio: "https://github.com/suyash-patil/music-player/raw/main/src/audio/Indian%20Walk%20-%20Nico%20Staf.mp3",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
             active: true,
@@ -53,11 +53,11 @@ function SongList () {
             active: false,
           },
           {
-            name: "Nightfall",
+            name: "Violet Vape",
             cover:
               "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-            artist: "Aiguille",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
+            artist: "Cheel",
+            audio: "https://github.com/suyash-patil/music-player/raw/main/src/audio/Violet%20Vape%20-%20Cheel.mp3",
             color: ["#EF8EA9", "#ab417f"],
             id: uuidv4(),
             active: false,
